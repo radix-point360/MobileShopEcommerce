@@ -12,7 +12,7 @@ function addToCompare(productId) {
     compareList.push(productId);
     localStorage.setItem('compareProducts', JSON.stringify(compareList));
     updateCompareBar();
-    // alert('Product added to compare list.');;
+    // alert('Product added to compare list.');
 }
 
 function removeFromCompare(productId) {
